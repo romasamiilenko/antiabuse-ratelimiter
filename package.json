@@ -1,0 +1,25 @@
+{
+  "name": "antiabuse-ratelimiter",
+  "version": "1.0.0",
+  "description": "A simple rate limiting package for Node.js applications designed to prevent abuse and ensure fair usage of resources.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romasamiilenko/antiabuse-ratelimiter.git"
+  },
+  "keywords": [
+    "rate-limit",
+    "middleware",
+    "express",
+    "nodejs"
+  ],
+  "author": "romasamiilenko",
+  "license": "MIT",
+    "dependencies": {
+    "morgan": "^1.10.0",
+    "helmet": "^4.6.0"
+  }
+}
